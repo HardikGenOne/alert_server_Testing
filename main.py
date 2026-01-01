@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TELEGRAM_BOT_TOKEN = "8021458974:AAH_U6vWbr877Cv669Ig88MFqWVUWZtf5Mk"
+TELEGRAM_CHAT_ID = "5609562789"
 
 app = FastAPI()
 
