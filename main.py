@@ -45,3 +45,10 @@ async def get_stock_symbol(data: AlertRequest):
         "status": "sent",
         "message": data.req
     }
+
+@app.get("/ping")
+async def get_stock_symbol():
+    return {
+        "message":"Server is responding Fine !"
+    }
+
