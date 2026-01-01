@@ -20,4 +20,6 @@ class AlertRequest(BaseModel):
 
 @app.post("/alert")
 async def get_stock_symbol(data: AlertRequest):
+    print("... MESSAGE RECEIVED ...")
+    print(data.req)
     return {"message": data.req}
